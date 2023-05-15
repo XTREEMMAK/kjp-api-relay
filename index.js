@@ -19,6 +19,7 @@ app.set('trust proxy',1)
 //Routes
 app.use('/api', require('./routes'))
 app.use('/music-projects', require('./routes/music-projects'))
+app.use('/kjm', require('./routes/music-home'))
 app.use('/artist-profiles', require('./routes/artist-profiles'))
 app.use('/comic-projects', require('./routes/comic-projects'))
 
